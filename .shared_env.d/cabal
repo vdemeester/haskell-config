@@ -1,0 +1,11 @@
+
+# Filename:     .shared_env.d/cabal
+# Author:       Vincent Demeester
+# License:      This file is licensed under the GPL v2
+# --------------------------------------------------------------------------- #
+# This file append PATH with cabal bins if present.
+# --------------------------------------------------------------------------- #
+if test -d $HOME/.cabal && test -d $HOME/.cabal/bin; then
+    PATH=$HOME/.cabal/bin:$PATH
+fi
+# vim:filetype=sh foldmethod=marker autoindent expandtab shiftwidth=4
