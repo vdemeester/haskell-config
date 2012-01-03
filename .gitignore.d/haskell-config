@@ -1,3 +1,7 @@
 *
-!.shared_env.d
-!.shared_env.d/cabal
+!.sh
+!.sh/hook
+!.sh/hook/shenv.post
+!.sh/hook/shenv.post/cabal
+!.gitignore.d
+!.gitignore.d/haskell-config
