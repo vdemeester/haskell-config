@@ -1,4 +1,6 @@
 *
+!.cabal
+!.cabal/config
 !.sh
 !.sh/hook
 !.sh/hook/shenv.post
