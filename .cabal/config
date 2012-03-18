@@ -8,8 +8,8 @@
 -- used to indicate layout for nested sections.
 
 
-remote-repo: hackage.factisresearch.com:http://hackage.factisresearch.com/packages/archive
--- remote-repo: hackage.haskell.org:http://hackage.haskell.org/packages/archive
+-- remote-repo: hackage.factisresearch.com:http://hackage.factisresearch.com/packages/archive
+remote-repo: hackage.haskell.org:http://hackage.haskell.org/packages/archive
 remote-repo-cache: /home/vincent/.cabal/packages
 -- local-repo:
 -- verbose: 1
