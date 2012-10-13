@@ -1,4 +1,5 @@
 *
+!.ghci
 !.cabal
 !.cabal/config
 !.sh
