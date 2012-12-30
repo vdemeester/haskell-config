@@ -3,6 +3,10 @@
 !.cabal
 !.cabal/config
 !.sh
+!.sh/completions
+!.sh/completions/_ghc
+!.sh/completions/_hugs
+!.sh/completions/_cabal
 !.sh/hook
 !.sh/hook/shenv.post
 !.sh/hook/shenv.post/cabal
