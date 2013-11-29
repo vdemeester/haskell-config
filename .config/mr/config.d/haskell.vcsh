@@ -1,0 +1,3 @@
+[$HOME/.config/vcsh/repo.d/haskell-config.git]
+lib = VCSH_NAME="haskell-config"
+include = cat $HOME/lib/vcsh/mr
