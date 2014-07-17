@@ -1,5 +1,6 @@
 *
-!.ghci
+!.ghc
+!.ghc/ghci.conf
 !.cabal
 !.cabal/config
 !.sh
