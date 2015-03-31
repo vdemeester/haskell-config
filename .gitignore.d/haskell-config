@@ -13,3 +13,6 @@
 !.sh/hook/shenv.post/cabal
 !.gitignore.d
 !.gitignore.d/haskell-config
+!.emacs.d
+!.emacs.d/provided
+!.emacs.d/provided/haskell-config.org

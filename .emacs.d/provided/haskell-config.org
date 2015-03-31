@@ -1,0 +1,24 @@
+* Haskell configuration
+
+    #+begin_src emacs-lisp
+      (use-package haskell-mode
+        :ensure t)
+      (use-package ghc
+        :ensure t)
+      (use-package ghci-completion
+        :ensure t)
+      (use-package shm
+        :ensure t)
+    #+end_src
+
+*** Flycheck
+
+    #+BEGIN_SRC emacs-lisp
+      (use-package flycheck-haskell
+        :ensure t
+        :config
+        (progn
+          (eval-after-load 'flycheck
+            '(add-hook 'flycheck-mode-hook #'flycheck-haskell-setup))))
+    #+END_SRC
+
